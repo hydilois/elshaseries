@@ -27,9 +27,30 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/google-fonts/cssda6f.css",
+              "src/assets/css/google-fonts/css868b.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/owl.theme.default.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/main.css",
+              "src/assets/css/light-theme.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/email-decode.min.js",
+              "src/assets/js/jquery-3.2.1.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/typed.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.countTo.min.js",
+              "src/assets/js/jquery.filterizr.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
