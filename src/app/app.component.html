@@ -37,6 +37,16 @@
         <li><a href="#" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
         <li><a href="#" data-value="#blog" data-name="Blog">Blog</a></li>
         <li><a href="#" data-value="#contact" data-name="Contact">Contact</a></li>
+        <li>
+          <span class="form-inline">
+            <select class="form-control" #selectLang (change)="switchLanguage(selectLang.value)">
+              <option *ngFor="let language of translate.getLangs()"
+                      [value]="language"
+                      [selected]="language === translate.currentLang"
+              >{{ language }}</option>
+            </select>
+          </span>
+        </li>
       </ul>
     </div>
   </div>
@@ -51,11 +61,11 @@
     <div class="container">
       <div class="intro display-table">
         <div class="display-table-cell">
-          <h3>Hello, Je m'appelle </h3>
+          <h3>Hello, {{'name'|translate}}</h3>
           <h1>Hydil Aicard SOKEING</h1>
           <p>A Web <span></span></p>
           <div class="my-btn">
-            <a href="#" class="main-btn">Hire Me</a>
+            <a href="#" class="main-btn">Engagez moi</a>
           </div>
         </div>
       </div>
