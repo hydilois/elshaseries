@@ -23,17 +23,17 @@
         <span class="bar"></span>
       </button>
       <!-- logo -->
-      <a class="navbar-brand" href="#"><span>Elsha</span>series</a>
+      <a class="navbar-brand" href="#"><span>Elsha</span>Series</a>
     </div>
     <!-- Collect the nav links, and other content for toggling -->
     <div class="navbar-links" id="ournavbar">
       <!-- links -->
       <ul class="nav navbar-nav navbar-right">
-        <li class="nav-brand text-center visible-xs-block"><a href="#"><span>Elsha</span>series</a></li>
-        <li><a class="active" href="#" data-value="#home" data-name="Home">Home</a></li>
-        <li><a href="#" data-value="#about" data-name="About">About</a></li>
+        <li class="nav-brand text-center visible-xs-block"><a href="#"><span>Elsha</span>Series</a></li>
+        <li><a class="active" href="#" data-value="#home" data-name="Home">{{ 'home'|translate }}</a></li>
+        <li><a href="#" data-value="#about" data-name="About">{{ 'about'|translate }}</a></li>
         <li><a href="#" data-value="#services" data-name="Services">Services</a></li>
-        <li><a href="#" data-value="#resume" data-name="Resume">Resume</a></li>
+        <li><a href="#" data-value="#resume" data-name="Resume">{{ 'resume'|translate }}</a></li>
         <li><a href="#" data-value="#portfolio" data-name="Portfolio">Portfolio</a></li>
         <li><a href="#" data-value="#blog" data-name="Blog">Blog</a></li>
         <li><a href="#" data-value="#contact" data-name="Contact">Contact</a></li>
@@ -65,12 +65,12 @@
           <h1>Hydil Aicard SOKEING</h1>
           <p>A Web <span></span></p>
           <div class="my-btn">
-            <a href="#" class="main-btn">Engagez moi</a>
+            <a href="#" class="main-btn">{{ 'hire'|translate }}</a>
           </div>
         </div>
       </div>
       <div class="arrow">
-        <a href="#about">Discover</a>
+        <a href="#about">{{ 'discover'|translate }}</a>
       </div>
     </div>
   </div>
@@ -79,25 +79,26 @@
 <!-- ========== End Home ========== -->
 
 <!-- ========== Start About Me ========== -->
-
 <section class="about-me" id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-md-6">
         <div class="about-image">
-          <img class="img-responsive" src="../assets/images/about.jpg" alt="">
+          <img class="img-responsive" src="assets/images/about.jpg" alt="">
         </div>
       </div>
       <div class="col-lg-7 col-md-6">
         <div class="about-info">
           <div class="main-title">
-            <h2>About Me</h2>
+            <h2>{{ 'about_me'|translate }}</h2>
             <span>01.</span>
           </div>
-          <h3>Hello! I am John Smith</h3>
-          <p>I'm a Freelance Web Designer &amp; Developer based in New York, USA, and I'm very passionate and dedicated
+          <h3>Hello! {{ 'i_am'|translate }} Hydil Aicard SOKEING</h3>
+          <p class="text-justify"><!--I'm a Freelance Web Designer &amp; Developer based in New York, USA, and I'm very passionate and dedicated
             to my work .With 7 years experience as a professional Web Designer &amp; Developer, I have acquired the
-            skills necessary to build great and premium websites.</p>
+            skills necessary to build great and premium websites.-->
+            {{ 'presentation'|translate }}
+          </p>
           <div class="personal-info">
             <p><span><i class="fa fa-user"></i></span>Hydil Aicard SOKEING</p>
             <p><span><i class="fa fa-phone"></i></span>+237 654 136 893</p>
@@ -108,15 +109,15 @@
             <p><span><i class="fa fa-map-marker"></i></span>Yaoundé, Cameroun</p>
             <div class="social-media">
                                     <span>
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-behance"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a target="_blank" href="https://www.facebook.com/hydilaicard.sokeing"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" href="https://twitter.com/ElshaSeries"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-youtube"></i></a>
+                                        <a target="_blank" href="https://github.com/hydilois"><i class="fa fa-github"></i></a>
+                                        <a target="_blank" href="https://www.linkedin.com/in/hydil-aicard-sokeing-b0b74310b/"><i class="fa fa-linkedin"></i></a>
                                     </span>
             </div>
           </div>
-          <a href="#" class="main-btn">Download CV</a>
+          <a href="#" class="main-btn">{{ 'download_cv' | translate }}</a>
         </div>
       </div>
     </div>
@@ -127,7 +128,7 @@
 <section class="services" id="services">
   <div class="container">
     <div class="main-title">
-      <h2>My Services</h2>
+      <h2>Mes Services</h2>
       <span>02.</span>
     </div>
     <div class="row">
@@ -136,7 +137,7 @@
           <div class="service-icon">
             <i class="fa fa-pencil fa-lg"></i>
           </div>
-          <h4>Creative Design</h4>
+          <h4>Développement des applications</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
           <div class="service-number">01.</div>
         </div>
@@ -146,7 +147,7 @@
           <div class="service-icon">
             <i class="fa fa-flag fa-lg"></i>
           </div>
-          <h4>Branding</h4>
+          <h4>Formateur</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
           <div class="service-number">02.</div>
         </div>
@@ -166,7 +167,7 @@
           <div class="service-icon">
             <i class="fa fa-support fa-lg"></i>
           </div>
-          <h4>Fast Support</h4>
+          <h4>Assistance rapide</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusm.</p>
           <div class="service-number">04.</div>
         </div>
@@ -182,7 +183,7 @@
 <section class="resume" id="resume">
   <div class="container">
     <div class="main-title">
-      <h2>My Resume</h2>
+      <h2>Mon CV</h2>
       <span>03.</span>
     </div>
     <div class="row">
@@ -359,9 +360,9 @@
       <div id="filtr-container" class="row">
         <div class="col-md-4 col-sm-6 filtr-item" data-category="1" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-1.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-1.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-1.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-1.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Web Design</span>
@@ -371,9 +372,9 @@
         </div>
         <div class="col-md-4 col-sm-6 filtr-item" data-category="2" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-2.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-2.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-2.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-2.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Graphic Design</span>
@@ -383,9 +384,9 @@
         </div>
         <div class="col-md-4 col-sm-6 filtr-item" data-category="3" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-3.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-3.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-3.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-3.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Branding</span>
@@ -395,9 +396,9 @@
         </div>
         <div class="col-md-4 col-sm-6 filtr-item" data-category="1" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-4.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-4.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-4.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-4.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Web Design</span>
@@ -407,9 +408,9 @@
         </div>
         <div class="col-md-4 col-sm-6 filtr-item" data-category="2" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-5.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-5.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-5.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-5.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Graphic Design</span>
@@ -419,9 +420,9 @@
         </div>
         <div class="col-md-4 col-sm-6 filtr-item" data-category="3" data-sort="value">
           <div class="item">
-            <img class="img-responsive" src="../assets/images/portfolio/item-6.jpg" alt="">
+            <img class="img-responsive" src="assets/images/portfolio/item-6.jpg" alt="">
             <div class="overlay">
-              <a class="icon-img" href="images/portfolio/item-6.jpg"><i class="fa fa-search-plus"></i></a>
+              <a class="icon-img" href="assets/images/portfolio/item-6.jpg"><i class="fa fa-search-plus"></i></a>
               <h4 class="item-title">Project Title</h4>
               <div class="item-category">
                 <span>Branding</span>
@@ -492,7 +493,7 @@
               ea commodo.</p>
           </div>
           <div class="client-pic">
-            <img src="../assets/images/testimonials/1.jpg" alt="client">
+            <img src="assets/images/testimonials/1.jpg" alt="client">
           </div>
           <div class="client-details">
             <h6> Joe Paulian </h6>
@@ -509,7 +510,7 @@
               ea commodo.</p>
           </div>
           <div class="client-pic">
-            <img src="../assets/images/testimonials/2.jpg" alt="client">
+            <img src="assets/images/testimonials/2.jpg" alt="client">
           </div>
           <div class="client-details">
             <h6> Silvia Hatmun </h6>
@@ -526,7 +527,7 @@
               ea commodo.</p>
           </div>
           <div class="client-pic">
-            <img src="../assets/images/testimonials/3.jpg" alt="client">
+            <img src="assets/images/testimonials/3.jpg" alt="client">
           </div>
           <div class="client-details">
             <h6> Alexander Smith </h6>
@@ -543,7 +544,7 @@
               ea commodo.</p>
           </div>
           <div class="client-pic">
-            <img src="../assets/images/testimonials/4.jpg" alt="client">
+            <img src="assets/images/testimonials/4.jpg" alt="client">
           </div>
           <div class="client-details">
             <h6> Cristina Jordan </h6>
@@ -571,7 +572,7 @@
         <div class="post wow fadeInLeft" data-wow-duration="1.7s">
           <!-- Post Image -->
           <div class="post-img">
-            <img src="../assets/images/blog/1.jpg" class="img-responsive" alt="">
+            <img src="assets/images/blog/1.jpg" class="img-responsive" alt="">
           </div>
           <!-- Post Content -->
           <div class="post-content">
@@ -606,7 +607,7 @@
         <div class="post wow fadeInRight" data-wow-duration="1.7s">
           <!-- Post Image -->
           <div class="post-img">
-            <img src="../assets/images/blog/2.jpg" class="img-responsive" alt="">
+            <img src="assets/images/blog/2.jpg" class="img-responsive" alt="">
           </div>
           <!-- Post Content -->
           <div class="post-content">
@@ -641,7 +642,7 @@
         <div class="post wow fadeInLeft" data-wow-duration="1.7s">
           <!-- Post Image -->
           <div class="post-img">
-            <img src="../assets/images/blog/3.jpg" class="img-responsive" alt="">
+            <img src="assets/images/blog/3.jpg" class="img-responsive" alt="">
           </div>
           <!-- Post Content -->
           <div class="post-content">
@@ -736,7 +737,7 @@
         </div>
       </div>
       <div class="col-sm-8">
-        <form class="contact-form" action="https://hasnaanajmi.com/env/Anwar/mail.php" method="post">
+        <form class="contact-form" method="post">
           <div class="form-group">
             <input type="text" class="form-control" id="name" name="name" required value=""
                    onkeyup="this.setAttribute('value', this.value);">
@@ -758,11 +759,11 @@
           <div class="form-group">
             <textarea class="form-control" id="message" name="message" required data-value=""
                       onkeyup="this.setAttribute('data-value', this.value);"></textarea>
-            <label for="message">Your Message</label>
+            <label for="message">Votre Message</label>
             <span class="input-border"></span>
           </div>
           <!-- Button Send Message  -->
-          <button class="contact-btn main-btn btn btn-block" type="submit" name="send">Send Message</button>
+          <button class="contact-btn main-btn btn btn-block" type="submit" name="send">Envoyer un message</button>
           <!-- Form Message  -->
           <div class="form-message text-center"><span></span></div>
         </form>
@@ -777,36 +778,36 @@
 
 <footer class="footer text-center">
   <div class="container">
-    <a class="logo" href="#"><span>Elsha</span>series</a>
+    <a class="logo" href="#"><span>Elsha</span>Series</a>
     <ul class="footer-social-icons list-unstyled">
       <li>
-        <a href="#">
+        <a target="_blank" href="https://www.facebook.com/hydilaicard.sokeing">
           <i class="fa fa-facebook"></i>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a target="_blank" href="https://twitter.com/ElshaSeries">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
       <li>
         <a href="#">
-          <i class="fa fa-behance"></i>
+          <i class="fa fa-youtube"></i>
         </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fa fa-dribbble"></i>
+        <a target="_blank" href="https://github.com/hydilois">
+          <i class="fa fa-github"></i>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a target="_blank" href="https://www.linkedin.com/in/hydil-aicard-sokeing-b0b74310b/">
           <i class="fa fa-linkedin"></i>
         </a>
       </li>
     </ul>
     <div class="copyright">
-      <p>All Right Reserved &copy; 2019 <a href="#" target="_blank">HasnaaDesign</a></p>
+      <p>Tous droits reservés &copy; 2022 <a href="#" target="_blank">Elsha Series Dessign</a></p>
     </div>
   </div>
 </footer>

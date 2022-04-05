@@ -3,5 +3,12 @@
   "home": "Accueil",
   "about": "A propos",
   "resume": "CV",
-  "name": "Je m'appelle"
+  "name": "Je m'appelle",
+  "hire": "Engagez moi",
+  "discover": "Découvrir",
+  "about_me": "A propos de moi",
+  "i_am": "Je suis",
+  "presentation": "Je suis titulaire d’un diplôme d’ingénieur de Travaux en Informatique et Télécommunications, Spécialisé en Informatique de Gestion/Analyste programmeur. Je suis techniquement compétent dans la mise à jour et l’intégration des nouvelles fonctionnalités aux logiciels et matériel existants. Je prête attention à la description par l’utilisateur de son problème informatique et pose des questions pour identifier le problème et déterminer comment le résoudre. J’ai également une bonne expérience sur l’infrastructure technique du matériel informatique.",
+  "download_cv": "Télécharger le CV",
+  "services": "Mes Services"
 }

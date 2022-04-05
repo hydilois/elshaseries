@@ -1,4 +1,13 @@
 {
   "siteTitle": "My Portfolio",
-  "name": "My name is"
+  "home": "Home",
+  "about": "About",
+  "resume": "Resume",
+  "name": "My name is",
+  "hire": "Hire me",
+  "discover": "Discover",
+  "about_me": "About me",
+  "i_am": "I am",
+  "presentation": "I am a holder of Bachelor of Engineering Degree in computer Sciences and Telecommunication, specialize in IT Management/programmer analyst. I am technically skilled in integration updates and new features to the existing software and hardware. Paying attention to user’s description of their computer problem and asking questions to identify the problem and determine how to solve it. A good experience with IT technical infrastructure.",
+  "download_cv": "Download CV"
 }
